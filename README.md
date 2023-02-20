@@ -1,6 +1,7 @@
 # pyheadloss
 
-A small program to calculate major and minor headlosse
+A small program to calculate major and minor head loss
+![headlosses image](https://www.researchgate.net/publication/333773336/figure/fig1/AS:769533098856449@1560482396718/A-sketch-of-a-turbulent-pipe-flow.png)
 
 ## Description
 
