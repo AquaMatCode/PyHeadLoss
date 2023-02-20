@@ -24,7 +24,6 @@ git clone https://github.com/AquaMatCode/pyheadloss
 
 ### Executing program
 
-* To run the program
 ```
 from PyHeadLoss import PyHeadLoss
 
