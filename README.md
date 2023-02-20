@@ -18,7 +18,9 @@ It's using Darcy-Weisbach equation for major headlosses and 3 models to estimate
 
 ### Installing
 
-* git clone https://github.com/libgit2/libgit2
+```
+git clone https://github.com/AquaMatCode/pyheadloss
+```
 
 ### Executing program
 
