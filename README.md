@@ -10,7 +10,6 @@ It's using Darcy-Weisbach equation for major headlosses and 3 models to estimate
 - Fang | 2011 | https://www.sciencedirect.com/science/article/pii/S0029549311000173
 - Bellos, Nalbantis, Tsakris | 2018 | https://ascelibrary.org/doi/full/10.1061/%28ASCE%29HY.1943-7900.0001540
 
-
 ## Getting Started
 
 ### Dependencies
@@ -19,7 +18,7 @@ It's using Darcy-Weisbach equation for major headlosses and 3 models to estimate
 
 ### Installing
 
-* 
+* git clone https://github.com/libgit2/libgit2
 
 ### Executing program
 
@@ -27,17 +26,18 @@ It's using Darcy-Weisbach equation for major headlosses and 3 models to estimate
 ```
 from pyheadloss import pyheadloss
 
+#initialize the class
+c = pyheadloss(100, 100, 0.002, 0.5, 1000, 0.001, [7, 4, 8])
+c.get_headloss()
 ```
 
 ## Authors
 
 AquaMatCode
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the Unlicence License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
